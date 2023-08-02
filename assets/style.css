@@ -49,6 +49,10 @@ body {
 	padding-block: 100px;
 	position: relative;
 }
+.picture.left{
+	width: 201px;
+	height: 200px;
+}
 
 .picture.left::before {
 	content: ' ';
@@ -201,6 +205,12 @@ body {
 #contact .container {
 	display: flex;
 }
+
+.picture.right {
+	width: 394px;
+	height: 393px;
+}
+
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;
