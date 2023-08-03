@@ -425,10 +425,6 @@ legend + * {
   height: auto;
 }
 
-[type=search] {
-  outline-offset: -2px;
-}
-
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -4629,6 +4625,7 @@ textarea.form-control-lg {
     border-bottom-left-radius: 0;
   }
 }
+
 .accordion-button {
   position: relative;
   display: flex;
