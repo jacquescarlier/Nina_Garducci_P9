@@ -1,6 +1,7 @@
 * {
 	font-family: 'Inter', 'sans-serif';
 	font-style: normal;
+	font-display: swap;
 }
 body {
 	max-width: 1920px;
@@ -182,6 +183,10 @@ body {
 	width: 374px;
 	height: 329px;
 }
+.picture.right img {
+	width: 419px;
+	height: 418px;
+}
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;
@@ -243,6 +248,10 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 50%;
+	}
+	.picture.left img {
+		width: 475px;
+		height: 475px;
 	}
 	.picture.left::before {
 		width: 100%;
