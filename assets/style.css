@@ -36,6 +36,7 @@ body {
 }
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 #about {
 	display: flex;
